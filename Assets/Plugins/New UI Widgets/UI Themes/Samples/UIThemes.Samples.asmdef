@@ -1,0 +1,14 @@
+{
+    "name": "UIThemes.Samples",
+    "references": [
+        "Unity.TextMeshPro", "UIThemes"
+    ],
+    
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

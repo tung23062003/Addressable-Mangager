@@ -1,0 +1,14 @@
+{
+    "name": "UIThemes.Editor",
+    "references": [
+        "Unity.TextMeshPro", "UIThemes"
+    ],
+    "includePlatforms": ["Editor"], "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

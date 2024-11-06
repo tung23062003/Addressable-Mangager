@@ -574,7 +574,9 @@ PlayerSettings:
   webGLWebAssemblyBigInt: 0
   webGLCloseOnQuit: 0
   webWasm2023: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Standalone: UITHEMES_INSTALLED;UIWIDGETS_TMPRO_SUPPORT;UIWIDGETS_INSTALLED
+    WebGL: UITHEMES_INSTALLED;UIWIDGETS_TMPRO_SUPPORT;UIWIDGETS_INSTALLED
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:

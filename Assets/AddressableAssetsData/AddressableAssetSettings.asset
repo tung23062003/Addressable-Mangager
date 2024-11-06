@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 989adffb1c1354b489ca18d608c02545
   m_currentHash:
     serializedVersion: 2
-    Hash: 00000000000000000000000000000000
+    Hash: 3b58e67cc4bda2293574f6847532b3be
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_CatalogRequestsTimeout: 0
@@ -24,11 +24,11 @@ MonoBehaviour:
   m_InternalBundleIdMode: 1
   m_AssetLoadMode: 0
   m_BundledAssetProviderType:
-    m_AssemblyName: 
-    m_ClassName: 
+    m_AssemblyName: Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_ClassName: UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider
   m_AssetBundleProviderType:
-    m_AssemblyName: 
-    m_ClassName: 
+    m_AssemblyName: Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_ClassName: UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider
   m_IgnoreUnsupportedFilesInBuild: 0
   m_UniqueBundleIds: 0
   m_EnableJsonCatalog: 0
@@ -53,12 +53,13 @@ MonoBehaviour:
     m_Id: 
   m_RemoteCatalogLoadPath:
     m_Id: 
-  m_ContentStateBuildPathProfileVariableName: 
+  m_ContentStateBuildPathProfileVariableName: <default settings path>
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 0
   m_overridePlayerVersion: '[UnityEditor.PlayerSettings.bundleVersion]'
   m_GroupAssets:
+  - {fileID: 11400000, guid: 2ffb78ae223c5f24da156a0ed9ad532c, type: 2}
   - {fileID: 11400000, guid: fcd57dd61167005438268eb7fe312f9a, type: 2}
   m_BuildSettings:
     m_LogResourceManagerExceptions: 1
@@ -72,13 +73,13 @@ MonoBehaviour:
       - m_Id: 0a6d9dd1495ccbf4aac29fa66f07fbb5
         m_Value: <undefined>
       - m_Id: 38144738c1556ac4bb6c32dfe5bc84d1
-        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+        m_Value: 'ServerData/[BuildTarget]'
       - m_Id: d602a2e3ebf37904d8b81ab2893b0504
         m_Value: 'ServerData/[BuildTarget]'
       - m_Id: d886cbd32cc88b14fa2d7254942ec321
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: fb91f4573a042384aa68561d9d5670e7
-        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+        m_Value: <undefined>
     m_ProfileEntryNames:
     - m_Id: 0a6d9dd1495ccbf4aac29fa66f07fbb5
       m_Name: Remote.LoadPath
